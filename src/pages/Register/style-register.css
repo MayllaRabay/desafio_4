@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+body {
+    background-color: #F7F7F7;
+}
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: min-content;
+    margin: 100px auto 105px auto;
+}
+
+/* Edição Card */
+.card {
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 0px 32px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+    min-width: 405px;
+    padding: 60px 70px;
+}
+.card-titulo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 55px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+}
+p {
+    font-size: 16px;
+    font-weight: 600;
+}
+input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #4C4C4C;
+    padding: 14px;
+    margin-bottom: 40px;
+    min-width: 260px;
+}
+input:focus, input:hover {
+    border-bottom: 1px solid #DA0175;
+    outline: 0;
+}
+.label-password {
+    position: relative;
+    font-size: 30px;
+}
+.label-password img {
+    position: absolute;
+    right: 12px;
+    top: 32px;
+}
+button {
+    color: #F7F7F7;
+    font-weight: 600;
+    font-size: 14px;
+    background-color: rgba(218, 1, 117, 0.35);
+    border-radius: 20px;
+    border: none;
+    margin: 40px auto 30px auto;
+    padding: 11px 60px;
+    max-width: fit-content;
+}
+button:hover {
+    color: rgba(218, 1, 117, 0.35);
+}
+.rodape {
+    margin-top: 32px;
+}
+.rodape a {
+    color: #DA0175;
+}
